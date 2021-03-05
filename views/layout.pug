@@ -1,1 +1,14 @@
-layout.pug
+doctype html
+html
+  head
+    title notes
+    link(rel='stylesheet' href='/static/main.css')
+  body
+    header.header
+      h1 notes app
+
+      nav
+        a(href='/all-notes') all notes
+        a(href='/archive') archive
+
+  block content

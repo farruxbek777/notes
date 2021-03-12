@@ -17,7 +17,14 @@ a:hover {
 	lcolor: red;
 }
 
+.header,
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 .header {
+
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -36,3 +43,76 @@ a:hover {
 	padding: 10px 20px;
 }
 
+
+
+
+/* homepage srykes */
+.intro-msg {
+	margin-top: 
+	padding: 20px;
+	font-size: 3.5rem;
+}
+
+.featured {
+margin-left: 20px;
+padding: 10px 20px;
+font-size: 1.3rem;
+display: inline-block;
+background: tomato;
+color: #fff;
+border: none;
+
+}
+
+/* create page */
+
+.page-title
+.form{
+	margin-left: 20px;
+}
+
+.page-title
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.form{
+	max-width: 50px;
+
+}
+
+.input {
+	display: block;
+	width: 100%
+	font-size: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background: tomato;
+	color: #fff;
+	border: none;
+}
+
+
+
+/* notes page */
+.notes {
+	margin: 20px 0 0 20px;
+}
+
+.note {
+
+	display: block;
+	padding: 10px 0;
+	font-size: 1.5rem;
+    border-bottom: 1px dotted #ccc;
+
+
+
+}
